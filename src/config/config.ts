@@ -7,15 +7,15 @@ export const getAsset = (path: string) => {
 const siteConfig = {
   personal: {
     name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    title: 'vaibhavi man | student at christ university',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
       'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
-      '\n' +
+      'I am a data analyst with a strong foundation in economics and data science, currently pursuing a BSc in Economics with Data Science at Christ University. I specialize in turning raw data into meaningful insights using advanced Excel, Power BI, and Python. With experience in data cleaning, visualization, and analytical problem-solving, I focus on making data-driven decisions clear, accurate, and impactful. I bring a disciplined, results-oriented approach while continuously learning and adapting to new analytical tools and techniques.' +
       'Mention your institution or company, areas of interest, and what you teach or build.\n' +
-      '\n' +
+      'christ university' +
       'Summarize your education or certifications briefly and highlight your practical work.\n' +
-      '\n' +
+      '' +
       'Optional: Add notable books, workshops, or training you deliver.',
     tagline: 'Add a concise personal tagline here.',
     location: 'Your City, Country',
@@ -36,7 +36,7 @@ const siteConfig = {
     { name: 'Experience', url: '/experience' },
     { name: 'Blogs', url: '/blogs' },
     { name: 'Resume', url: '/resume' },
-    { name: 'Contact', url: '/contact' },
+    { name: 'Contact', url: '/9608440037' },
   ],
 
   // Static blog entries. Use getAsset so the URL respects NEXT_PUBLIC_BASE_PATH / next.config.basePath
@@ -51,8 +51,8 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
+      institution: 'christ university,
+      degree: 'BSc economics with data science ',
       year: 'YYYY–YYYY',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
